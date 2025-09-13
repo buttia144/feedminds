@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         card.setAttribute('data-aos-duration', '800');
         
         // Determine image path with relative path for local development
-        const imagePath = `../assets/${member.image}`;
+        const imagePath = `./assets/${member.image}`;
         
         // Check if this is the founder (Oyodo Gideon)
         const isFounder = member.name.toLowerCase().includes('oyodo') && member.name.toLowerCase().includes('gideon');
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
         modalContent.className = 'bg-white rounded-xl p-6 max-w-lg w-full max-h-[90vh] overflow-y-auto relative';
         
         // Determine image path with relative path for local development
-        const imagePath = `../assets/${member.image}`;
+        const imagePath = `./assets/${member.image}`;
         
         // Check if this is the founder
         const isFounder = member.name.toLowerCase().includes('oyodo') && member.name.toLowerCase().includes('gideon');
