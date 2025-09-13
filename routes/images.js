@@ -33,7 +33,7 @@ router.get('/:filename', (req, res) => {
     res.sendFile(imagePath);
   } catch (err) {
     console.error('Error serving image:', err.message);
-    res.status(500).send('Server error');
+    res.status(500).json({ msg: 'Server error' });
   }
 });
 

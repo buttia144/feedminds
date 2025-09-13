@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
         card.setAttribute('data-aos', 'fade-up');
         card.setAttribute('data-aos-duration', '800');
         
-        // Determine image path - ensure it points to the correct location
-        const imagePath = `../assets/${member.image}`;
+        // Determine image path with absolute path for Vercel compatibility
+        const imagePath = `/assets/${member.image}`;
         
         // Check if this is the founder (Oyodo Gideon)
         const isFounder = member.name.toLowerCase().includes('oyodo') && member.name.toLowerCase().includes('gideon');
@@ -108,8 +108,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalContent = document.createElement('div');
         modalContent.className = 'bg-white rounded-xl p-6 max-w-lg w-full max-h-[90vh] overflow-y-auto relative';
         
-        // Determine image path
-        const imagePath = `../assets/${member.image}`;
+        // Determine image path with absolute path for Vercel compatibility
+        const imagePath = `/assets/${member.image}`;
         
         // Check if this is the founder
         const isFounder = member.name.toLowerCase().includes('oyodo') && member.name.toLowerCase().includes('gideon');

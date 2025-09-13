@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metadata Testing Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c5282;
+        }
+        h2 {
+            color: #4a5568;
+            margin-top: 30px;
+        }
+        .tool {
+            background-color: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .tool h3 {
+            margin-top: 0;
+            color: #2b6cb0;
+        }
+        a {
+            color: #3182ce;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background-color: #edf2f7;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .note {
+            background-color: #ebf8ff;
+            border-left: 4px solid #4299e1;
+            padding: 10px 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>FeedingMinds Metadata Testing Guide</h1>
+    
+    <p>This guide will help you test the metadata implementation for social media sharing. We've added Open Graph and Twitter Card meta tags to improve how links appear when shared on social platforms.</p>
+    
+    <div class="note">
+        <p><strong>Note:</strong> You'll need to deploy your website to a public URL before testing with these tools, as they need to access your site online.</p>
+    </div>
+    
+    <h2>Testing Tools</h2>
+    
+    <div class="tool">
+        <h3>1. Facebook Sharing Debugger</h3>
+        <p>Use this tool to test how your links will appear when shared on Facebook and other platforms that use Open Graph tags.</p>
+        <p><a href="https://developers.facebook.com/tools/debug/" target="_blank">https://developers.facebook.com/tools/debug/</a></p>
+        <p>Instructions:</p>
+        <ul>
+            <li>Enter your website URL</li>
+            <li>Click "Debug"</li>
+            <li>If needed, click "Scrape Again" to refresh Facebook's cache</li>
+        </ul>
+    </div>
+    
+    <div class="tool">
+        <h3>2. Twitter Card Validator</h3>
+        <p>Test how your links will appear when shared on Twitter.</p>
+        <p><a href="https://cards-dev.twitter.com/validator" target="_blank">https://cards-dev.twitter.com/validator</a></p>
+        <p>Instructions:</p>
+        <ul>
+            <li>Enter your website URL</li>
+            <li>Click "Preview card"</li>
+        </ul>
+    </div>
+    
+    <div class="tool">
+        <h3>3. OpenGraph.xyz</h3>
+        <p>A comprehensive tool to preview how your site will appear across multiple platforms.</p>
+        <p><a href="https://www.opengraph.xyz/" target="_blank">https://www.opengraph.xyz/</a></p>
+        <p>Instructions:</p>
+        <ul>
+            <li>Enter your website URL</li>
+            <li>View previews for different platforms</li>
+        </ul>
+    </div>
+    
+    <div class="tool">
+        <h3>4. LinkedIn Post Inspector</h3>
+        <p>Test how your links will appear when shared on LinkedIn.</p>
+        <p><a href="https://www.linkedin.com/post-inspector/" target="_blank">https://www.linkedin.com/post-inspector/</a></p>
+        <p>Instructions:</p>
+        <ul>
+            <li>Enter your website URL</li>
+            <li>Click "Inspect"</li>
+        </ul>
+    </div>
+    
+    <div class="tool">
+        <h3>5. Meta Tags Generator</h3>
+        <p>If you need to make adjustments, this tool can help generate the correct meta tags.</p>
+        <p><a href="https://metatags.io/" target="_blank">https://metatags.io/</a></p>
+    </div>
+    
+    <h2>What to Check</h2>
+    <ul>
+        <li>Title appears correctly</li>
+        <li>Description is complete and not truncated</li>
+        <li>Logo image appears properly and isn't cropped oddly</li>
+        <li>URL is correct</li>
+    </ul>
+    
+    <h2>Implemented Meta Tags</h2>
+    <p>We've implemented the following meta tags across the main pages:</p>
+    <ul>
+        <li>Basic meta tags (title, description)</li>
+        <li>Favicon and Apple Touch icons</li>
+        <li>Open Graph tags for Facebook/LinkedIn</li>
+        <li>Twitter Card tags</li>
+    </ul>
+    
+    <div class="note">
+        <p>If you need to make changes to the metadata, edit the <code>&lt;head&gt;</code> section of each HTML file.</p>
+    </div>
+</body>
+</html>

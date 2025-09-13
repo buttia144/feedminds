@@ -49,7 +49,7 @@ router.get('/', async (req, res) => {
     res.json(projects);
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server error');
+    res.status(500).json({ msg: 'Server error' });
   }
 });
 
@@ -68,7 +68,7 @@ router.get('/:id', async (req, res) => {
     if (err.kind === 'ObjectId') {
       return res.status(404).json({ msg: 'Project not found' });
     }
-    res.status(500).send('Server error');
+    res.status(500).json({ msg: 'Server error' });
   }
 });
 
@@ -82,7 +82,7 @@ router.get('/category/:category', async (req, res) => {
     res.json(projects);
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server error');
+    res.status(500).json({ msg: 'Server error' });
   }
 });
 
@@ -126,7 +126,7 @@ router.post('/', [auth, upload.single('image')], async (req, res) => {
     res.json(project);
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server error');
+    res.status(500).json({ msg: 'Server error' });
   }
 });
 
@@ -173,7 +173,7 @@ router.put('/:id', [auth, upload.single('image')], async (req, res) => {
     if (err.kind === 'ObjectId') {
       return res.status(404).json({ msg: 'Project not found' });
     }
-    res.status(500).send('Server error');
+    res.status(500).json({ msg: 'Server error' });
   }
 });
 
@@ -204,7 +204,7 @@ router.delete('/:id', auth, async (req, res) => {
     if (err.kind === 'ObjectId') {
       return res.status(404).json({ msg: 'Project not found' });
     }
-    res.status(500).send('Server error');
+    res.status(500).json({ msg: 'Server error' });
   }
 });
 
@@ -233,7 +233,7 @@ router.put('/reorder', auth, async (req, res) => {
     res.json({ msg: 'Projects reordered successfully' });
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Server error');
+    res.status(500).json({ msg: 'Server error' });
   }
 });
 
