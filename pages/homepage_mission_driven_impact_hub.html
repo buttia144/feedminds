@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impact Connect - Your Action Creates Lasting Change</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="Join Impact Connect's mission-driven community. Create lasting change through transparent giving, volunteer opportunities, and meaningful engagement with social impact programs." />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fnonprofit3056back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background">
+    <!-- Navigation Header -->
+    <nav class="bg-surface shadow-subtle sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <svg class="h-10 w-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 20l6 6 10-12" stroke="currentColor" stroke-width="3" fill="none"/>
+                        <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                    </svg>
+                    <span class="ml-3 text-xl font-inter font-bold text-primary">Impact Connect</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage_mission_driven_impact_hub.html" class="text-primary font-semibold">Home</a>
+                    <a href="programs_hub_interactive_impact_explorer.html" class="text-text-secondary hover:text-primary transition-colors">Programs</a>
+                    <a href="get_involved_central_engagement_matching_platform.html" class="text-text-secondary hover:text-primary transition-colors">Get Involved</a>
+                    <a href="impact_stories_multimedia_success_showcase.html" class="text-text-secondary hover:text-primary transition-colors">Stories</a>
+                    <a href="about_ecosystem_organizational_transparency_hub.html" class="text-text-secondary hover:text-primary transition-colors">About</a>
+                    <a href="resource_center_educational_impact_hub.html" class="text-text-secondary hover:text-primary transition-colors">Resources</a>
+                    <a href="community_platform_supporter_connection_network.html" class="text-text-secondary hover:text-primary transition-colors">Community</a>
+                    <a href="contact_multi_channel_connection_hub.html" class="text-text-secondary hover:text-primary transition-colors">Contact</a>
+                    <a href="donation_experience_impact_driven_giving_portal.html" class="btn-primary">Donate Now</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-text-secondary hover:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-surface border-t border-border">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="homepage_mission_driven_impact_hub.html" class="block px-3 py-2 text-primary font-semibold">Home</a>
+                <a href="programs_hub_interactive_impact_explorer.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Programs</a>
+                <a href="get_involved_central_engagement_matching_platform.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Get Involved</a>
+                <a href="impact_stories_multimedia_success_showcase.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Stories</a>
+                <a href="about_ecosystem_organizational_transparency_hub.html" class="block px-3 py-2 text-text-secondary hover:text-primary">About</a>
+                <a href="resource_center_educational_impact_hub.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Resources</a>
+                <a href="community_platform_supporter_connection_network.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Community</a>
+                <a href="contact_multi_channel_connection_hub.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Contact</a>
+                <a href="donation_experience_impact_driven_giving_portal.html" class="block mx-3 my-2 btn-primary text-center">Donate Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Rotating Impact Stories -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-secondary-50 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="text-center lg:text-left">
+                    <h1 class="text-4xl md:text-6xl font-inter font-bold text-text-primary mb-6 leading-tight">
+                        Your Action Creates 
+                        <span class="text-gradient-primary">Lasting Change</span>
+                    </h1>
+                    <p class="text-xl text-text-secondary mb-8 max-w-2xl">
+                        Join thousands of changemakers transforming lives through transparent giving, meaningful volunteering, and community-driven impact programs.
+                    </p>
+                    
+                    <!-- Dual CTA Layout -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="donation_experience_impact_driven_giving_portal.html" class="btn-primary text-lg px-8 py-4 inline-flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                            </svg>
+                            Donate Now
+                        </a>
+                        <a href="get_involved_central_engagement_matching_platform.html" class="btn-secondary text-lg px-8 py-4 inline-flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                            Find Your Way to Help
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Video Testimonial Carousel -->
+                <div class="relative">
+                    <div class="bg-surface rounded-2xl shadow-card p-6">
+                        <div class="aspect-video bg-gradient-to-br from-primary-100 to-secondary-100 rounded-xl mb-4 relative overflow-hidden">
+                            <img src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Maria from Guatemala sharing her education success story" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                                <button class="bg-surface/90 rounded-full p-4 hover:bg-surface transition-colors">
+                                    <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="font-inter font-semibold text-lg mb-2">Maria's Education Journey</h3>
+                            <p class="text-text-secondary mb-2">Guatemala City, Guatemala</p>
+                            <p class="text-sm text-text-secondary">"Thanks to Impact Connect's scholarship program, I'm now the first in my family to attend university."</p>
+                        </div>
+                        
+                        <!-- Carousel Indicators -->
+                        <div class="flex justify-center mt-4 space-x-2">
+                            <button class="w-2 h-2 bg-primary rounded-full"></button>
+                            <button class="w-2 h-2 bg-border rounded-full"></button>
+                            <button class="w-2 h-2 bg-border rounded-full"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real-time Impact Dashboard -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-inter font-bold text-text-primary mb-4">Impact in Real-Time</h2>
+                <p class="text-text-secondary max-w-2xl mx-auto">See the immediate difference your support makes in communities worldwide</p>
+            </div>
+            
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Lives Changed Counter -->
+                <div class="text-center">
+                    <div class="bg-primary-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <div class="text-3xl font-inter font-bold text-primary mb-2">47,832</div>
+                    <div class="text-text-secondary">Lives Changed</div>
+                </div>
+
+                <!-- Funds Raised Counter -->
+                <div class="text-center">
+                    <div class="bg-secondary-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+                        </svg>
+                    </div>
+                    <div class="text-3xl font-inter font-bold text-secondary mb-2">$2.4M</div>
+                    <div class="text-text-secondary">Raised This Month</div>
+                </div>
+
+                <!-- Active Volunteers Counter -->
+                <div class="text-center">
+                    <div class="bg-accent-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                    </div>
+                    <div class="text-3xl font-inter font-bold text-accent mb-2">12,456</div>
+                    <div class="text-text-secondary">Active Volunteers</div>
+                </div>
+
+                <!-- Programs Funded Counter -->
+                <div class="text-center">
+                    <div class="bg-primary-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                    </div>
+                    <div class="text-3xl font-inter font-bold text-primary mb-2">156</div>
+                    <div class="text-text-secondary">Programs Funded</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs at a Glance -->
+    <section class="py-16 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-inter font-bold text-text-primary mb-4">Programs at a Glance</h2>
+                <p class="text-text-secondary max-w-2xl mx-auto">Discover our core initiatives creating sustainable change across the globe</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Education Access Program -->
+                <div class="card group hover:scale-105 transition-transform duration-300">
+                    <div class="bg-primary-50 rounded-lg p-4 mb-4">
+                        <svg class="w-12 h-12 text-primary mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-inter font-semibold text-lg mb-2">Education Access</h3>
+                    <p class="text-text-secondary text-sm mb-4">Providing scholarships and educational resources to underserved communities worldwide.</p>
+                    
+                    <!-- Funding Progress -->
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-text-secondary">Funded</span>
+                            <span class="text-primary font-semibold">78%</span>
+                        </div>
+                        <div class="w-full bg-border-light rounded-full h-2">
+                            <div class="bg-primary h-2 rounded-full" style="width: 78%"></div>
+                        </div>
+                    </div>
+
+                    <div class="text-sm text-text-secondary mb-4">
+                        <div class="flex justify-between">
+                            <span>Students Supported:</span>
+                            <span class="font-semibold">2,847</span>
+                        </div>
+                    </div>
+
+                    <a href="programs_hub_interactive_impact_explorer.html" class="btn-primary w-full text-center text-sm">Learn More</a>
+                </div>
+
+                <!-- Clean Water Projects -->
+                <div class="card group hover:scale-105 transition-transform duration-300">
+                    <div class="bg-secondary-50 rounded-lg p-4 mb-4">
+                        <svg class="w-12 h-12 text-secondary mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 7.172V5L8 4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-inter font-semibold text-lg mb-2">Clean Water</h3>
+                    <p class="text-text-secondary text-sm mb-4">Building wells and water systems to provide safe drinking water to remote villages.</p>
+                    
+                    <!-- Funding Progress -->
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-text-secondary">Funded</span>
+                            <span class="text-secondary font-semibold">92%</span>
+                        </div>
+                        <div class="w-full bg-border-light rounded-full h-2">
+                            <div class="bg-secondary h-2 rounded-full" style="width: 92%"></div>
+                        </div>
+                    </div>
+
+                    <div class="text-sm text-text-secondary mb-4">
+                        <div class="flex justify-between">
+                            <span>Wells Built:</span>
+                            <span class="font-semibold">127</span>
+                        </div>
+                    </div>
+
+                    <a href="programs_hub_interactive_impact_explorer.html" class="btn-secondary w-full text-center text-sm">Learn More</a>
+                </div>
+
+                <!-- Economic Empowerment -->
+                <div class="card group hover:scale-105 transition-transform duration-300">
+                    <div class="bg-accent-50 rounded-lg p-4 mb-4">
+                        <svg class="w-12 h-12 text-accent mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-inter font-semibold text-lg mb-2">Economic Empowerment</h3>
+                    <p class="text-text-secondary text-sm mb-4">Microfinance and skills training programs to help families build sustainable livelihoods.</p>
+                    
+                    <!-- Funding Progress -->
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-text-secondary">Funded</span>
+                            <span class="text-accent font-semibold">65%</span>
+                        </div>
+                        <div class="w-full bg-border-light rounded-full h-2">
+                            <div class="bg-accent h-2 rounded-full" style="width: 65%"></div>
+                        </div>
+                    </div>
+
+                    <div class="text-sm text-text-secondary mb-4">
+                        <div class="flex justify-between">
+                            <span>Businesses Started:</span>
+                            <span class="font-semibold">1,234</span>
+                        </div>
+                    </div>
+
+                    <a href="programs_hub_interactive_impact_explorer.html" class="btn-accent w-full text-center text-sm">Learn More</a>
+                </div>
+
+                <!-- Emergency Relief -->
+                <div class="card group hover:scale-105 transition-transform duration-300">
+                    <div class="bg-error/10 rounded-lg p-4 mb-4">
+                        <svg class="w-12 h-12 text-error mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-inter font-semibold text-lg mb-2">Emergency Relief</h3>
+                    <p class="text-text-secondary text-sm mb-4">Rapid response support for communities affected by natural disasters and crises.</p>
+                    
+                    <!-- Funding Progress -->
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-text-secondary">Funded</span>
+                            <span class="text-error font-semibold">45%</span>
+                        </div>
+                        <div class="w-full bg-border-light rounded-full h-2">
+                            <div class="bg-error h-2 rounded-full" style="width: 45%"></div>
+                        </div>
+                    </div>
+
+                    <div class="text-sm text-text-secondary mb-4">
+                        <div class="flex justify-between">
+                            <span>Families Helped:</span>
+                            <span class="font-semibold">3,567</span>
+                        </div>
+                    </div>
+
+                    <a href="programs_hub_interactive_impact_explorer.html" class="bg-error text-white px-4 py-2 rounded-lg w-full text-center text-sm hover:bg-red-600 transition-colors">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Spotlight Carousel -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-inter font-bold text-text-primary mb-4">Volunteer Spotlight</h2>
+                <p class="text-text-secondary max-w-2xl mx-auto">Meet the incredible people making a difference in their communities</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Volunteer 1 -->
+                <div class="card text-center">
+                    <div class="relative mb-6">
+                        <img src="https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg" alt="David Chen, Community Coordinator" class="w-24 h-24 rounded-full mx-auto object-cover" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-secondary text-white px-3 py-1 rounded-full text-xs">
+                            Community Coordinator
+                        </div>
+                    </div>
+                    <h3 class="font-inter font-semibold text-lg mb-2">David Chen</h3>
+                    <p class="text-text-secondary text-sm mb-4">"Volunteering with Impact Connect has shown me how small actions can create ripple effects of positive change."</p>
+                    <div class="text-xs text-text-secondary">
+                        <span class="bg-secondary-50 text-secondary px-2 py-1 rounded-full">3 years volunteering</span>
+                    </div>
+                </div>
+
+                <!-- Volunteer 2 -->
+                <div class="card text-center">
+                    <div class="relative mb-6">
+                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Sarah Johnson, Education Mentor" class="w-24 h-24 rounded-full mx-auto object-cover" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-primary text-white px-3 py-1 rounded-full text-xs">
+                            Education Mentor
+                        </div>
+                    </div>
+                    <h3 class="font-inter font-semibold text-lg mb-2">Sarah Johnson</h3>
+                    <p class="text-text-secondary text-sm mb-4">"Teaching children in remote areas has been the most rewarding experience of my life. Their eagerness to learn is inspiring."</p>
+                    <div class="text-xs text-text-secondary">
+                        <span class="bg-primary-50 text-primary px-2 py-1 rounded-full">2 years volunteering</span>
+                    </div>
+                </div>
+
+                <!-- Volunteer 3 -->
+                <div class="card text-center">
+                    <div class="relative mb-6">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=60" alt="Michael Rodriguez, Water Project Engineer" class="w-24 h-24 rounded-full mx-auto object-cover" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent text-white px-3 py-1 rounded-full text-xs">
+                            Water Engineer
+                        </div>
+                    </div>
+                    <h3 class="font-inter font-semibold text-lg mb-2">Michael Rodriguez</h3>
+                    <p class="text-text-secondary text-sm mb-4">"Using my engineering skills to bring clean water to communities has given my career a deeper purpose."</p>
+                    <div class="text-xs text-text-secondary">
+                        <span class="bg-accent-50 text-accent px-2 py-1 rounded-full">5 years volunteering</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8">
+                <a href="get_involved_central_engagement_matching_platform.html" class="btn-secondary">Join Our Volunteer Community</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transparency Promise -->
+    <section class="py-16 bg-gradient-to-r from-primary-50 to-secondary-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-inter font-bold text-text-primary mb-6">Our Transparency Promise</h2>
+                    <p class="text-text-secondary mb-6">
+                        We believe trust is earned through radical transparency. Every dollar donated is tracked, every program is measured, and every impact is documented.
+                    </p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center">
+                            <div class="bg-secondary text-white rounded-full p-2 mr-4">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </div>
+                            <span class="text-text-primary">87% of funds go directly to programs</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-secondary text-white rounded-full p-2 mr-4">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </div>
+                            <span class="text-text-primary">Monthly impact reports published</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-secondary text-white rounded-full p-2 mr-4">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </div>
+                            <span class="text-text-primary">Third-party audited financials</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="about_ecosystem_organizational_transparency_hub.html" class="btn-primary">View Financial Reports</a>
+                        <a href="donation_experience_impact_driven_giving_portal.html" class="btn-secondary">See Where Money Goes</a>
+                    </div>
+                </div>
+
+                <div class="bg-surface rounded-2xl shadow-card p-8">
+                    <h3 class="font-inter font-semibold text-xl mb-6 text-center">Fund Allocation</h3>
+                    
+                    <!-- Pie Chart Representation -->
+                    <div class="relative w-48 h-48 mx-auto mb-6">
+                        <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+                            <!-- Programs (87%) -->
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#059669" stroke-width="20" stroke-dasharray="218.5 32.5" stroke-dashoffset="0"/>
+                            <!-- Operations (10%) -->
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#2563EB" stroke-width="20" stroke-dasharray="25.1 225.9" stroke-dashoffset="-218.5"/>
+                            <!-- Fundraising (3%) -->
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#F97316" stroke-width="20" stroke-dasharray="7.5 243.5" stroke-dashoffset="-243.6"/>
+                        </svg>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-2xl font-inter font-bold text-primary">87%</div>
+                                <div class="text-xs text-text-secondary">to Programs</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-secondary rounded-full mr-3"></div>
+                                <span class="text-sm">Programs</span>
+                            </div>
+                            <span class="text-sm font-semibold">87%</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-primary rounded-full mr-3"></div>
+                                <span class="text-sm">Operations</span>
+                            </div>
+                            <span class="text-sm font-semibold">10%</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-accent rounded-full mr-3"></div>
+                                <span class="text-sm">Fundraising</span>
+                            </div>
+                            <span class="text-sm font-semibold">3%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Integration -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-inter font-bold text-text-primary mb-4">Trusted by Thousands</h2>
+                <p class="text-text-secondary max-w-2xl mx-auto">Join a community of changemakers who trust Impact Connect to create lasting change</p>
+            </div>
+
+            <!-- Recent Donor Appreciation -->
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.pixabay.com/photo/2016/11/18/19/07/happy-1836445_1280.jpg" alt="Jennifer Martinez" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-inter font-semibold">Jennifer Martinez</h4>
+                            <p class="text-text-secondary text-sm">Monthly Donor</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary text-sm">"The transparency reports show exactly how my monthly donation is making a difference. It's incredible to see the direct impact."</p>
+                    <div class="flex text-accent mt-3">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Robert Kim" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-inter font-semibold">Robert Kim</h4>
+                            <p class="text-text-secondary text-sm">Corporate Partner</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary text-sm">"Our company partnership with Impact Connect has engaged our employees and created meaningful CSR outcomes. Highly recommended."</p>
+                    <div class="flex text-accent mt-3">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=800&auto=format&fit=crop&q=60" alt="Lisa Thompson" class="w-12 h-12 rounded-full object-cover mr-4" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-inter font-semibold">Lisa Thompson</h4>
+                            <p class="text-text-secondary text-sm">Volunteer Leader</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary text-sm">"The volunteer matching system connected me with the perfect opportunity. I've never felt more fulfilled in my community service."</p>
+                    <div class="flex text-accent mt-3">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Media Recognition & Validation Badges -->
+            <div class="text-center">
+                <h3 class="font-inter font-semibold text-lg mb-6">Recognized by Leading Organizations</h3>
+                <div class="flex flex-wrap justify-center items-center gap-8 opacity-60">
+                    <div class="bg-border-light px-6 py-3 rounded-lg">
+                        <span class="font-inter font-semibold text-text-secondary">GuideStar Gold Seal</span>
+                    </div>
+                    <div class="bg-border-light px-6 py-3 rounded-lg">
+                        <span class="font-inter font-semibold text-text-secondary">Charity Navigator 4-Star</span>
+                    </div>
+                    <div class="bg-border-light px-6 py-3 rounded-lg">
+                        <span class="font-inter font-semibold text-text-secondary">Better Business Bureau A+</span>
+                    </div>
+                    <div class="bg-border-light px-6 py-3 rounded-lg">
+                        <span class="font-inter font-semibold text-text-secondary">Featured in Forbes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Persistent CTA Bar -->
+    <div class="fixed bottom-0 left-0 right-0 bg-surface border-t border-border p-4 md:hidden z-40">
+        <div class="flex gap-3">
+            <a href="donation_experience_impact_driven_giving_portal.html" class="btn-primary flex-1 text-center">
+                Donate Now
+            </a>
+            <a href="get_involved_central_engagement_matching_platform.html" class="btn-secondary flex-1 text-center">
+                Volunteer
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <!-- Logo and Mission -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <svg class="h-8 w-8 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 20l6 6 10-12" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                        </svg>
+                        <span class="ml-3 text-xl font-inter font-bold">Impact Connect</span>
+                    </div>
+                    <p class="text-gray-300 mb-4 max-w-md">
+                        Empowering communities worldwide through transparent giving, meaningful volunteering, and sustainable impact programs.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-inter font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="programs_hub_interactive_impact_explorer.html" class="text-gray-300 hover:text-primary transition-colors">Programs</a></li>
+                        <li><a href="get_involved_central_engagement_matching_platform.html" class="text-gray-300 hover:text-primary transition-colors">Volunteer</a></li>
+                        <li><a href="donation_experience_impact_driven_giving_portal.html" class="text-gray-300 hover:text-primary transition-colors">Donate</a></li>
+                        <li><a href="impact_stories_multimedia_success_showcase.html" class="text-gray-300 hover:text-primary transition-colors">Impact Stories</a></li>
+                        <li><a href="about_ecosystem_organizational_transparency_hub.html" class="text-gray-300 hover:text-primary transition-colors">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-inter font-semibold text-lg mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            hello@impactconnect.org
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            +1 (555) 123-4567
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            123 Impact Street<br />
+                            Change City, CC 12345
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-300 text-sm">© 2025 Impact Connect. All Rights Reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-300 hover:text-primary text-sm transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-300 hover:text-primary text-sm transition-colors">Terms of Service</a>
+                    <a href="#" class="text-gray-300 hover:text-primary text-sm transition-colors">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Add some basic interactivity for the impact counters
+        function animateCounters() {
+            const counters = document.querySelectorAll('.text-3xl');
+            counters.forEach(counter => {
+                const target = parseInt(counter.textContent.replace(/[^0-9]/g, ''));
+                let current = 0;
+                const increment = target / 100;
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        counter.textContent = counter.textContent.replace(/[0-9,]+/, target.toLocaleString());
+                        clearInterval(timer);
+                    } else {
+                        counter.textContent = counter.textContent.replace(/[0-9,]+/, Math.floor(current).toLocaleString());
+                    }
+                }, 20);
+            });
+        }
+
+        // Trigger counter animation when page loads
+        window.addEventListener('load', animateCounters);
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

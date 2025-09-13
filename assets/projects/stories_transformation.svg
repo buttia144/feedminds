@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Book Cover -->
+  <rect x="200" y="100" width="400" height="500" rx="10" ry="10" fill="#6c63ff" />
+  <rect x="210" y="110" width="380" height="480" rx="5" ry="5" fill="#8b80ff" />
+  
+  <!-- Book Title -->
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">Stories of</text>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">Transformation</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="400" y="380" r="60" fill="#ffffff" opacity="0.2" />
+  <path d="M380,350 C420,330 450,370 420,400 C390,430 350,410 380,350 Z" fill="#ffffff" opacity="0.6" />
+  <path d="M420,350 C380,330 350,370 380,400 C410,430 450,410 420,350 Z" fill="#ffffff" opacity="0.6" />
+  
+  <!-- Author -->
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#ffffff">FeedingMinds</text>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#ffffff">Student Anthology</text>
+</svg>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills Acquisition - FeedingMinds</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="bg-surface shadow-subtle sticky top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="../assets/logo.jpeg" alt="FeedingMinds Logo" class="h-10 w-auto">
+                    <span class="ml-3 text-xl font-inter font-bold text-primary">FeedingMinds</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+                    <a href="vision.html" class="text-text-secondary hover:text-primary transition-colors">Vision</a>
+                    <a href="mission.html" class="text-text-secondary hover:text-primary transition-colors">Mission</a>
+                    <a href="skills.html" class="text-primary font-semibold">Skills</a>
+                    <a href="volunteers.html" class="text-text-secondary hover:text-primary transition-colors">Volunteers</a>
+                    <a href="projects.html" class="text-text-secondary hover:text-primary transition-colors">Projects</a>
+                    <a href="../index.html#contact" class="btn-primary">Get Involved</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-text-secondary hover:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-surface border-t border-border">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="../index.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Home</a>
+                <a href="vision.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Vision</a>
+                <a href="mission.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Mission</a>
+                <a href="skills.html" class="block px-3 py-2 text-primary font-semibold">Skills</a>
+                <a href="volunteers.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Volunteers</a>
+                <a href="projects.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Projects</a>
+                <a href="../index.html#contact" class="block mx-3 my-2 btn-primary text-center">Get Involved</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Skills Acquisition Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
+                <h1 class="text-4xl md:text-5xl font-bold text-text-primary mb-4">Skills Acquisition</h1>
+                <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto mb-8">
+                    At FeedingMinds, we offer a diverse range of practical skills training to complement academic education. Our hands-on programs prepare students for real-world opportunities and entrepreneurship.
+                </p>
+            </div>
+            
+            <!-- Skills Overview -->
+            <div class="bg-primary-50 rounded-2xl p-8 mb-16 shadow-lg" data-aos="fade-up" data-aos-duration="800">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2">
+                        <h2 class="text-2xl font-bold text-text-primary mb-4">Why Skills Matter</h2>
+                        <p class="text-text-secondary mb-4">
+                            In today's rapidly changing world, practical skills are essential for success. They complement academic knowledge, enhance employability, foster entrepreneurship, and build confidence.
+                        </p>
+                        <p class="text-text-secondary mb-4">
+                            Our skills acquisition programs are designed to be accessible, practical, and relevant to real-world opportunities. Each program includes hands-on training, mentorship, and opportunities to apply skills in community projects.
+                        </p>
+                        <div class="flex flex-wrap gap-3 mt-6">
+                            <span class="bg-white px-4 py-2 rounded-full text-primary font-medium shadow-sm">Hands-on Learning</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-primary font-medium shadow-sm">Expert Instructors</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-primary font-medium shadow-sm">Certification</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-primary font-medium shadow-sm">Entrepreneurship</span>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                             alt="Students learning skills" 
+                             class="rounded-xl shadow-lg w-full h-auto" />
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Skill 1: Leather Making -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800">
+                    <div class="h-48 bg-gradient-to-r from-amber-500 to-amber-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-briefcase text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Leather Making</h3>
+                        <p class="text-text-secondary mb-4">
+                            Learn the art of crafting high-quality leather products including bags, wallets, belts, and more. Master techniques in cutting, stitching, dyeing, and finishing leather goods.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">8-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 2: Photo Enlargement/Framing -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="h-48 bg-gradient-to-r from-blue-500 to-blue-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-camera text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Photo Enlargement/Framing</h3>
+                        <p class="text-text-secondary mb-4">
+                            Develop skills in photo editing, printing, enlargement, and professional framing. Learn to create beautiful framed photographs for homes, offices, and galleries.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">6-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 3: Jotter and Book Making -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="h-48 bg-gradient-to-r from-green-500 to-green-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-book text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Jotter and Book Making</h3>
+                        <p class="text-text-secondary mb-4">
+                            Master the craft of creating custom notebooks, journals, and books. Learn binding techniques, cover design, paper selection, and finishing touches.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">5-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 4: Tie and Dye -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800">
+                    <div class="h-48 bg-gradient-to-r from-purple-500 to-purple-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-tshirt text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Tie and Dye</h3>
+                        <p class="text-text-secondary mb-4">
+                            Learn the art of creating beautiful tie-dye patterns on fabrics. Master various techniques, color combinations, and applications for clothing and home decor.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">4-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 5: Graphic Design -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="h-48 bg-gradient-to-r from-red-500 to-red-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-paint-brush text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Graphic Design</h3>
+                        <p class="text-text-secondary mb-4">
+                            Develop skills in digital design using industry-standard software. Learn to create logos, marketing materials, social media graphics, and more.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">10-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 6: Bleach and Izal Production -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="h-48 bg-gradient-to-r from-cyan-500 to-cyan-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-flask text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Bleach and Izal Production</h3>
+                        <p class="text-text-secondary mb-4">
+                            Learn to produce high-quality cleaning products including bleach and disinfectants. Master formulation, production processes, packaging, and marketing.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">6-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 7: Print Making on Shirt -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800">
+                    <div class="h-48 bg-gradient-to-r from-orange-500 to-orange-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-print text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Print Making on Shirt</h3>
+                        <p class="text-text-secondary mb-4">
+                            Master the art of screen printing, heat transfer, and direct-to-garment printing. Create custom t-shirts, apparel, and fabric items with professional results.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">7-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 8: Bead Making -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="h-48 bg-gradient-to-r from-pink-500 to-pink-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-gem text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Bead Making</h3>
+                        <p class="text-text-secondary mb-4">
+                            Learn to create beautiful beaded jewelry and accessories. Master techniques in bead selection, stringing, weaving, and finishing professional-quality pieces.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">5-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 9: Soap Making -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="h-48 bg-gradient-to-r from-teal-500 to-teal-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-pump-soap text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Soap Making</h3>
+                        <p class="text-text-secondary mb-4">
+                            Develop skills in creating handcrafted soaps using various techniques. Learn formulation, coloring, scenting, molding, and packaging for retail.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">6-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 10: Catering and Baking -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800">
+                    <div class="h-48 bg-gradient-to-r from-yellow-500 to-yellow-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-utensils text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Catering and Baking</h3>
+                        <p class="text-text-secondary mb-4">
+                            Master the art of food preparation, baking, and event catering. Learn culinary techniques, menu planning, food safety, and business management.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">12-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 11: Digital Marketing -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="h-48 bg-gradient-to-r from-indigo-500 to-indigo-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-bullhorn text-white text-5xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-text-primary">Digital Marketing</h3>
+                        <p class="text-text-secondary mb-4">
+                            Develop skills in online marketing including social media, content creation, SEO, email marketing, and analytics. Learn to promote products and services effectively.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-primary font-medium">8-week program</span>
+                            <a href="#" class="text-primary hover:text-primary-700 font-medium flex items-center">
+                                Learn more
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Call to Action -->
+            <div class="bg-primary text-white rounded-2xl p-8 shadow-lg text-center" data-aos="fade-up" data-aos-duration="800">
+                <h2 class="text-2xl font-bold mb-4">Ready to Develop Your Skills?</h2>
+                <p class="text-white/90 mb-6 max-w-2xl mx-auto">
+                    Join our skills acquisition programs and start your journey toward practical expertise and entrepreneurial success. Our next cohort begins soon!
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="../index.html#contact" class="btn-white">Enroll Now</a>
+                    <a href="volunteers.html" class="btn-outline-white">Meet Our Trainers</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Logo and Description -->
+                <div class="md:col-span-1">
+                    <div class="flex items-center mb-4">
+                        <img src="../assets/logo.jpeg" alt="FeedingMinds Logo" class="h-8 w-auto bg-white rounded">
+                        <span class="ml-2 text-xl font-bold">FeedingMinds</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Empowering students with skills for a brighter future and stronger communities.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="vision.html" class="text-gray-300 hover:text-white transition-colors">Vision</a></li>
+                        <li><a href="mission.html" class="text-gray-300 hover:text-white transition-colors">Mission</a></li>
+                        <li><a href="skills.html" class="text-gray-300 hover:text-white transition-colors">Skills</a></li>
+                        <li><a href="volunteers.html" class="text-gray-300 hover:text-white transition-colors">Volunteers</a></li>
+                        <li><a href="../index.html#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Programs -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Our Programs</h3>
+                    <ul class="space-y-2">
+                        <li><a href="skills.html" class="text-gray-300 hover:text-white transition-colors">Skills Training</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Empowerment Conferences</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Mentorship</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Certification</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Community Outreach</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Stay Updated</h3>
+                    <p class="text-gray-300 mb-4">
+                        Subscribe to our newsletter for the latest updates on programs and events.
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 w-full rounded-l-lg focus:outline-none text-text-primary" />
+                        <button type="submit" class="bg-primary hover:bg-primary-700 px-4 py-2 rounded-r-lg transition-colors">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2023 FeedingMinds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- AOS Animation Library Initialization -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init();
+        
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

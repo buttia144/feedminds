@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Book Cover -->
+  <rect x="200" y="100" width="400" height="500" rx="10" ry="10" fill="#2196f3" />
+  <rect x="210" y="110" width="380" height="480" rx="5" ry="5" fill="#42a5f5" />
+  
+  <!-- Book Title -->
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#ffffff">Education</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#ffffff">Beyond</text>
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#ffffff">Classrooms</text>
+  
+  <!-- Decorative Elements - Graduation Cap and Book -->
+  <polygon points="350,380 450,380 420,350 380,350" fill="#ffffff" opacity="0.8" />
+  <rect x="380" y="350" width="40" height="10" fill="#ffffff" opacity="0.8" />
+  <circle cx="400" cy="340" r="10" fill="#ffffff" opacity="0.8" />
+  
+  <!-- Open Book -->
+  <path d="M320,420 C360,400 440,400 480,420 L480,460 C440,440 360,440 320,460 Z" fill="#ffffff" opacity="0.6" />
+  <line x1="400" y1="420" x2="400" y2="460" stroke="#ffffff" stroke-width="2" />
+  
+  <!-- Subtitle -->
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#ffffff">A Research-Based Approach to</text>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#ffffff">Practical Skills in Education</text>
+</svg>

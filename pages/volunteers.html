@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Volunteers - FeedingMinds</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="bg-surface shadow-subtle sticky top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="../assets/logo.jpeg" alt="FeedingMinds Logo" class="h-10 w-auto">
+                    <span class="ml-3 text-xl font-inter font-bold text-primary">FeedingMinds</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+                    <a href="vision.html" class="text-text-secondary hover:text-primary transition-colors">Vision</a>
+                    <a href="mission.html" class="text-text-secondary hover:text-primary transition-colors">Mission</a>
+                    <a href="skills.html" class="text-text-secondary hover:text-primary transition-colors">Skills</a>
+                    <a href="volunteers.html" class="text-primary font-semibold">Volunteers</a>
+                    <a href="projects.html" class="text-text-secondary hover:text-primary transition-colors">Projects</a>
+                    <a href="../index.html#contact" class="btn-primary">Get Involved</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-text-secondary hover:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-surface border-t border-border">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="../index.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Home</a>
+                <a href="vision.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Vision</a>
+                <a href="mission.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Mission</a>
+                <a href="skills.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Skills</a>
+                <a href="volunteers.html" class="block px-3 py-2 text-primary font-semibold">Volunteers</a>
+                <a href="projects.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Projects</a>
+                <a href="../index.html#contact" class="block mx-3 my-2 btn-primary text-center">Get Involved</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Volunteers Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
+                <h1 class="text-4xl md:text-5xl font-bold text-text-primary mb-4">Our Volunteers</h1>
+                <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto mb-8">
+                    Meet the dedicated individuals who make our mission possible. Our volunteers bring expertise, passion, and commitment to empowering students with practical skills.
+                </p>
+            </div>
+            
+            <!-- Volunteer Teams Overview -->
+            <div class="bg-primary-50 rounded-2xl p-8 mb-16 shadow-lg" data-aos="fade-up" data-aos-duration="800">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2">
+                        <h2 class="text-2xl font-bold text-text-primary mb-4">Join Our Volunteer Community</h2>
+                        <p class="text-text-secondary mb-4">
+                            Our volunteers are the heart of FeedingMinds. They include skilled professionals, educators, entrepreneurs, and community leaders who share their expertise and time to empower the next generation.
+                        </p>
+                        <p class="text-text-secondary mb-4">
+                            Volunteers serve in various capacities including skills training, mentorship, event organization, administrative support, and community outreach. Each role is vital to our mission of equipping students with practical skills.
+                        </p>
+                        <div class="flex flex-wrap gap-3 mt-6">
+                            <span class="bg-white px-4 py-2 rounded-full text-primary font-medium shadow-sm">Skills Trainers</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-primary font-medium shadow-sm">Mentors</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-primary font-medium shadow-sm">Event Organizers</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-primary font-medium shadow-sm">Outreach Team</span>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                             alt="Volunteer team meeting" 
+                             class="rounded-xl shadow-lg w-full h-auto" />
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Training Team -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-text-primary mb-8 text-center" data-aos="fade-up" data-aos-duration="800">Skills Training Team</h2>
+                
+                <div id="skills-training-team" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Team members will be loaded dynamically from team.json -->
+                    <div class="col-span-3 text-center py-8">
+                        <div class="animate-pulse inline-block">
+                            <svg class="w-12 h-12 text-primary mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                            </svg>
+                            <p class="mt-2 text-text-secondary">Loading team members...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Community Outreach Team -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-text-primary mb-8 text-center" data-aos="fade-up" data-aos-duration="800">Community Outreach Team</h2>
+                
+                <div id="community-outreach-team" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Team members will be loaded dynamically from team.json -->
+                    <div class="col-span-3 text-center py-8">
+                        <div class="animate-pulse inline-block">
+                            <svg class="w-12 h-12 text-primary mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                            </svg>
+                            <p class="mt-2 text-text-secondary">Loading team members...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Volunteer CTA -->
+            <div class="bg-primary text-white rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-duration="800">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-2/3">
+                        <h2 class="text-2xl font-bold mb-4">Join Our Volunteer Team</h2>
+                        <p class="text-white/90 mb-4">
+                            Share your skills and make a difference in students' lives. We welcome volunteers with various expertise and time commitments. Whether you can teach a skill, mentor students, help with events, or support our administrative needs, there's a place for you at FeedingMinds.
+                        </p>
+                        <p class="text-white/90 mb-6">
+                            Volunteering with us offers the opportunity to impact young lives, develop your leadership skills, connect with like-minded individuals, and contribute to community development.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="../index.html#contact" class="btn-white">Apply to Volunteer</a>
+                            <a href="#" class="btn-outline-white">Download Volunteer Guide</a>
+                        </div>
+                    </div>
+                    <div class="md:w-1/3">
+                        <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                            <h3 class="text-xl font-semibold mb-4 text-white">Volunteer Benefits</h3>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-white/80 mt-1 mr-2"></i>
+                                    <span>Make a meaningful impact in students' lives</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-white/80 mt-1 mr-2"></i>
+                                    <span>Share your expertise and passion</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-white/80 mt-1 mr-2"></i>
+                                    <span>Develop leadership and teaching skills</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-white/80 mt-1 mr-2"></i>
+                                    <span>Connect with a community of change-makers</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-white/80 mt-1 mr-2"></i>
+                                    <span>Flexible time commitments available</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Logo and Description -->
+                <div class="md:col-span-1">
+                    <div class="flex items-center mb-4">
+                        <img src="../assets/logo.jpeg" alt="FeedingMinds Logo" class="h-8 w-auto bg-white rounded">
+                        <span class="ml-2 text-xl font-bold">FeedingMinds</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Empowering students with skills for a brighter future and stronger communities.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="vision.html" class="text-gray-300 hover:text-white transition-colors">Vision</a></li>
+                        <li><a href="mission.html" class="text-gray-300 hover:text-white transition-colors">Mission</a></li>
+                        <li><a href="skills.html" class="text-gray-300 hover:text-white transition-colors">Skills</a></li>
+                        <li><a href="volunteers.html" class="text-gray-300 hover:text-white transition-colors">Volunteers</a></li>
+                        <li><a href="../index.html#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Programs -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Our Programs</h3>
+                    <ul class="space-y-2">
+                        <li><a href="skills.html" class="text-gray-300 hover:text-white transition-colors">Skills Training</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Empowerment Conferences</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Mentorship</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Certification</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Community Outreach</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Stay Updated</h3>
+                    <p class="text-gray-300 mb-4">
+                        Subscribe to our newsletter for the latest updates on programs and events.
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 w-full rounded-l-lg focus:outline-none text-text-primary" />
+                        <button type="submit" class="bg-primary hover:bg-primary-700 px-4 py-2 rounded-r-lg transition-colors">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2023 FeedingMinds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- AOS Animation Library Initialization -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Team Data Loader -->
+    <script src="../public/team-data-loader.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init();
+        
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

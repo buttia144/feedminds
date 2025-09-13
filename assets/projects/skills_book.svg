@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f8f8f8"/>
+  <rect x="128" y="96" width="256" height="320" fill="#4682b4" stroke="#333" stroke-width="8"/>
+  <rect x="144" y="112" width="224" height="288" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <path d="M176 160L336 160M176 192L336 192M176 224L336 224M176 256L256 256" stroke="#333" stroke-width="4"/>
+  <rect x="176" y="288" width="160" height="80" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <path d="M208 328L304 328" stroke="#333" stroke-width="4"/>
+  <text x="256" y="144" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">SKILLS FOR TOMORROW</text>
+</svg>

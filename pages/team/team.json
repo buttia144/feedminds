@@ -1,0 +1,52 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Oyodo gideon",
+      "image": "gideon.jpeg",
+      "bio": "Oyodo Gideon Onilamo is the visionary founder of the Feeding Minds Initiative. A graduate of Mass Communication from the University of Benin, he is a creative force with expertise as a graphic designer, video editor, and entrepreneur. He is also the author of inspiring books, including Temple of Wealth and Falsehood of Pains, among others, where he shares insights on growth, purpose, and personal transformation. Beyond his creative and literary pursuits, Gideon is a passionate public speaker who uses his voice to empower individuals and communities. Through the Feeding Minds Initiative, he channels his skills, experiences, and passion into nurturing young minds, fostering creativity, and driving positive development in society."
+    },
+    {
+      "id": 2,
+      "name": "Elizabeth Nunathonde Senami",
+      "image": "elizabeth.jpeg",
+      "bio": "Elizabeth Nunathonde Senami is a final-year student of Fine and Applied Arts at the University of Benin. She is a talented photographer, as well as a skilled video and photo editor, with a keen eye for detail and artistic expression. Passionate about creativity and innovation, Elizabeth also identifies as an inspirational development personnel, using her craft to inspire growth, self-expression, and positive change in others. Through her artistry and dedication, she continues to merge creativity with impact, positioning herself as both a visual storyteller and a motivator for young people."
+    },
+    {
+      "id": 3,
+      "name": "Adetunji Moses",
+      "image": "moses.jpeg",
+      "bio": "Coach Adetunji Moses is a passionate creative and mentor with a background in Fine Art from the University of Benin (UNIBEN). As a graduate of the Department of Fine Art, he has honed his skills in visual expression and design, bringing both artistry and innovation into his work. Through the Feeding Minds Initiative, Coach Moses contributes his knowledge and creativity to inspire and empower young minds. His commitment goes beyond art—he is dedicated to shaping a generation of learners who are bold, imaginative, and ready to use their talents to make a difference."
+    },
+    {
+      "id": 4,
+      "name": "Caleb Aboriomoh",
+      "image": "caleb.jpeg",
+      "bio": "Caleb Aboriomoh is a dedicated graphic designer and early childhood educator with a Bachelor of Education in Early Childhood Education from the University of Benin. He holds a leadership certificate from Leadspire Institute and specializes in counseling and childhood psychology, driven by his belief that children's early developmental stages fundamentally shape their future. Passionate about providing quality care and education as children transition from home to school, Caleb has volunteered with NGOs including Just Recycle Initiative and Living Limits Network, where he received recognition for his outreach work with underprivileged communities. His dual expertise in visual design and child development allows him to create meaningful educational experiences that support children's growth during their most formative years."
+    },
+    {
+      "id": 5,
+      "name": "Ajibade Faith Pelu",
+      "image": "faith.jpeg",
+      "bio": "Ajibade Faith Pelu is a vibrant final-year student of Mass Communication at the University of Benin. She is a gifted writer and an emerging film director whose work reflects her deep passion for storytelling and creativity. With a natural love for innovative expression, Faith channels her skills into crafting impactful stories that inspire, entertain, and educate. Her dedication to creativity makes her a promising voice in the media and film industry, as well as a role model to young people who aspire to turn their ideas into reality."
+    },
+    {
+      "id": 6,
+      "name": "Famozor Jeremiah",
+      "image": "jeremiah.jpeg",
+      "bio": "Famozor Jeremiah is a graduate of the University of Benin, where he specialized in Artistry under the Department of Fine and Applied Arts, graduating with a Second Class Upper Division. A talented pen artist, he draws inspiration from creativity and transforms it into meaningful works of art. In addition to his artistic skill, Jeremiah is an academy tutor committed to impacting knowledge and guiding young people towards excellence. His passion for both art and education makes him a source of inspiration to many."
+    },
+    {
+      "id": 7,
+      "name": "Sunday Opeyemi Owolabi",
+      "image": "owolabi.jpeg",
+      "bio": "Sunday Opeyemi Owolabi is a passionate coach with the Feeding Minds Initiative and a final-year student of Mass Communication at the University of Benin. Beyond academics, she is a dynamic entrepreneur and skilled baker who has successfully combined creativity with business. Driven by a strong commitment to personal and community growth, Opeyemi also stands out as a youth development strategist, dedicated to mentoring and equipping young people with the right mindset, skills, and opportunities to thrive. Her work blends communication, entrepreneurship, and empowerment—making her an inspiration to her peers and a valuable asset to the Feeding Minds Initiative."
+    },
+    {
+      "id": 8,
+      "name": "Igomu Esther Ochanya",
+      "image": "esther.jpeg",
+      "bio": "Igomu Esther Ochanya is a final-year Mass Communication student with skills in pastry and confectionery making, content writing, basic graphic design, and video editing. She possesses strong communication, journalism, project management, leadership, and broadcasting abilities. As a dedicated team player, she is always ready to collaborate and contribute towards achieving impactful, positive, and goal-oriented results. She is also particular about impacting young people."
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Projects - FeedingMinds</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="bg-surface shadow-subtle sticky top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="../assets/logo.jpeg" alt="FeedingMinds Logo" class="h-10 w-auto">
+                    <span class="ml-3 text-xl font-inter font-bold text-primary">FeedingMinds</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+                    <a href="vision.html" class="text-text-secondary hover:text-primary transition-colors">Vision</a>
+                    <a href="mission.html" class="text-text-secondary hover:text-primary transition-colors">Mission</a>
+                    <a href="skills.html" class="text-text-secondary hover:text-primary transition-colors">Skills</a>
+                    <a href="volunteers.html" class="text-text-secondary hover:text-primary transition-colors">Volunteers</a>
+                    <a href="projects.html" class="text-primary font-semibold">Projects</a>
+                    <a href="../index.html#contact" class="btn-primary">Get Involved</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-text-secondary hover:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-surface border-t border-border">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="../index.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Home</a>
+                <a href="vision.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Vision</a>
+                <a href="mission.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Mission</a>
+                <a href="skills.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Skills</a>
+                <a href="volunteers.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Volunteers</a>
+                <a href="projects.html" class="block px-3 py-2 text-primary font-semibold">Projects</a>
+                <a href="../index.html#contact" class="block mx-3 my-2 btn-primary text-center">Get Involved</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-gradient-to-r from-primary/10 to-secondary/10 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-text-primary mb-4" data-aos="fade-up">Our Creative Projects</h1>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    Discover the artistic works and books created by our talented students as part of our skills development program.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="py-16 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Artwork Projects -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-text-primary mb-8 text-center" data-aos="fade-up">Artwork Projects</h2>
+                <div id="artwork-projects" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Artwork 1 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up">
+                        <div class="aspect-w-16 aspect-h-12 bg-primary/10">
+                            <img src="../assets/projects/leather_craft.svg" alt="Leather Crafts Collection" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Leather Crafts Collection</h3>
+                            <p class="text-text-secondary mb-4">Handcrafted leather items including wallets, bags, and decorative pieces made by our students.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-primary">Created: June 2023</span>
+                                <span class="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Leather Making</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artwork 2 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                        <div class="aspect-w-16 aspect-h-12 bg-secondary/10">
+                            <img src="../assets/projects/tie_dye.svg" alt="Tie & Dye Fashion Line" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Tie & Dye Fashion Line</h3>
+                            <p class="text-text-secondary mb-4">Vibrant tie-dyed clothing and accessories showcasing traditional and modern patterns.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-secondary">Created: August 2023</span>
+                                <span class="text-sm bg-secondary/10 text-secondary px-3 py-1 rounded-full">Tie & Dye</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artwork 3 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                        <div class="aspect-w-16 aspect-h-12 bg-primary/10">
+                            <img src="../assets/projects/photo_exhibition.svg" alt="Photo Exhibition" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Photo Exhibition</h3>
+                            <p class="text-text-secondary mb-4">A collection of framed photographs capturing local culture, nature, and community life.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-primary">Created: September 2023</span>
+                                <span class="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Photo Framing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artwork 4 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up">
+                        <div class="aspect-w-16 aspect-h-12 bg-secondary/10">
+                            <div class="flex items-center justify-center text-secondary">
+                                <i class="fas fa-palette text-5xl"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Graphic Design Portfolio</h3>
+                            <p class="text-text-secondary mb-4">Digital artwork, logos, and promotional materials created by our graphic design students.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-secondary">Created: October 2023</span>
+                                <span class="text-sm bg-secondary/10 text-secondary px-3 py-1 rounded-full">Graphic Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artwork 5 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                        <div class="aspect-w-16 aspect-h-12 bg-primary/10">
+                            <img src="../assets/projects/print_making.svg" alt="Print Making Collection" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Print Making Collection</h3>
+                            <p class="text-text-secondary mb-4">Custom printed t-shirts, bags, and merchandise featuring original designs by our students.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-primary">Created: November 2023</span>
+                                <span class="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Print Making</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artwork 6 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                        <div class="aspect-w-16 aspect-h-12 bg-secondary/10">
+                            <img src="../assets/projects/household_products.svg" alt="Household Products" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Household Products</h3>
+                            <p class="text-text-secondary mb-4">Handmade bleach, izal, and other household cleaning products created in our production workshop.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-secondary">Created: December 2023</span>
+                                <span class="text-sm bg-secondary/10 text-secondary px-3 py-1 rounded-full">Production</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Published Books -->
+            <div class="mt-24">
+                <h2 class="text-3xl font-bold text-text-primary mb-8 text-center" data-aos="fade-up">Published Books</h2>
+                <div id="book-projects" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Book 1 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up">
+                        <div class="aspect-w-16 aspect-h-12 bg-primary/10">
+                            <img src="../assets/projects/skills_book.svg" alt="Skills for Tomorrow" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Skills for Tomorrow</h3>
+                            <p class="text-text-secondary mb-4">A comprehensive guide to vocational skills development for young students in Nigeria.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-primary">Published: January 2023</span>
+                                <span class="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Educational</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book 2 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                        <div class="aspect-w-16 aspect-h-12 bg-secondary/10">
+                            <img src="../assets/projects/stories_transformation.svg" alt="Stories of Transformation" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Stories of Transformation</h3>
+                            <p class="text-text-secondary mb-4">A collection of inspiring stories from students whose lives were changed through skills acquisition.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-secondary">Published: March 2023</span>
+                                <span class="text-sm bg-secondary/10 text-secondary px-3 py-1 rounded-full">Anthology</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book 3 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                        <div class="aspect-w-16 aspect-h-12 bg-primary/10">
+                            <img src="../assets/projects/craft_mastery.svg" alt="Craft Mastery" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Craft Mastery</h3>
+                            <p class="text-text-secondary mb-4">A detailed handbook on traditional and modern crafting techniques taught in our programs.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-primary">Published: May 2023</span>
+                                <span class="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Instructional</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book 4 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up">
+                        <div class="aspect-w-16 aspect-h-12 bg-secondary/10">
+                            <img src="../assets/projects/entrepreneurship_guide.svg" alt="Entrepreneurship Guide" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Entrepreneurship Guide</h3>
+                            <p class="text-text-secondary mb-4">A practical guide to starting and growing small businesses based on vocational skills.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-secondary">Published: July 2023</span>
+                                <span class="text-sm bg-secondary/10 text-secondary px-3 py-1 rounded-full">Business</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book 5 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                        <div class="aspect-w-16 aspect-h-12 bg-primary/10">
+                            <img src="../assets/projects/creative_writing.svg" alt="Creative Writing Anthology" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Creative Writing Anthology</h3>
+                            <p class="text-text-secondary mb-4">A collection of poems, short stories, and essays written by students in our literacy program.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-primary">Published: September 2023</span>
+                                <span class="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Literary</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book 6 -->
+                    <div class="bg-surface rounded-xl shadow-subtle overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                        <div class="aspect-w-16 aspect-h-12 bg-secondary/10">
+                            <img src="../assets/projects/education_beyond.svg" alt="Education Beyond Classrooms" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-text-primary mb-2">Education Beyond Classrooms</h3>
+                            <p class="text-text-secondary mb-4">A research-based book on the importance of practical skills alongside academic education.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm text-secondary">Published: November 2023</span>
+                                <span class="text-sm bg-secondary/10 text-secondary px-3 py-1 rounded-full">Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-gradient-to-r from-primary to-secondary py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-6" data-aos="fade-up">Want to Support Our Creative Projects?</h2>
+            <p class="text-xl text-white/80 mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Your contribution helps us provide materials, tools, and mentorship for our students to create more amazing works.
+            </p>
+            <a href="../index.html#contact" class="inline-block bg-white text-primary font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+                Get Involved Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-surface border-t border-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Logo and Description -->
+                <div>
+                    <div class="flex items-center">
+                        <img src="../assets/logo.jpeg" alt="FeedingMinds Logo" class="h-10 w-auto">
+                        <span class="ml-3 text-xl font-inter font-bold text-primary">FeedingMinds</span>
+                    </div>
+                    <p class="mt-4 text-text-secondary">
+                        Empowering students through skills acquisition and knowledge development for a brighter future.
+                    </p>
+                    <div class="mt-6 flex space-x-4">
+                        <a href="#" class="text-text-secondary hover:text-primary transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-text-secondary hover:text-primary transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-text-secondary hover:text-primary transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-text-secondary hover:text-primary transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold text-text-primary mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html" class="text-text-secondary hover:text-primary transition-colors">Home</a></li>
+                        <li><a href="vision.html" class="text-text-secondary hover:text-primary transition-colors">Vision</a></li>
+                        <li><a href="mission.html" class="text-text-secondary hover:text-primary transition-colors">Mission</a></li>
+                        <li><a href="skills.html" class="text-text-secondary hover:text-primary transition-colors">Skills</a></li>
+                        <li><a href="volunteers.html" class="text-text-secondary hover:text-primary transition-colors">Volunteers</a></li>
+                        <li><a href="projects.html" class="text-text-secondary hover:text-primary transition-colors">Projects</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Programs -->
+                <div>
+                    <h3 class="text-lg font-semibold text-text-primary mb-4">Our Programs</h3>
+                    <ul class="space-y-2">
+                        <li><a href="skills.html" class="text-text-secondary hover:text-primary transition-colors">Skills Acquisition</a></li>
+                        <li><a href="#" class="text-text-secondary hover:text-primary transition-colors">Mentorship</a></li>
+                        <li><a href="#" class="text-text-secondary hover:text-primary transition-colors">Entrepreneurship</a></li>
+                        <li><a href="#" class="text-text-secondary hover:text-primary transition-colors">Digital Literacy</a></li>
+                        <li><a href="projects.html" class="text-text-secondary hover:text-primary transition-colors">Creative Projects</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div>
+                    <h3 class="text-lg font-semibold text-text-primary mb-4">Stay Updated</h3>
+                    <p class="text-text-secondary mb-4">Subscribe to our newsletter for the latest updates.</p>
+                    <form class="space-y-2">
+                        <div>
+                            <input type="email" placeholder="Your email address" class="w-full px-4 py-2 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/50">
+                        </div>
+                        <button type="submit" class="w-full btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="mt-12 pt-8 border-t border-border text-center text-text-secondary">
+                <p>&copy; 2023 FeedingMinds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../public/projects-loader.js"></script>
+    <script>
+        // Initialize AOS animation
+        AOS.init();
+
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

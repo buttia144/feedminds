@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Book Cover -->
+  <rect x="200" y="100" width="400" height="500" rx="10" ry="10" fill="#ff9800" />
+  <rect x="210" y="110" width="380" height="480" rx="5" ry="5" fill="#ffa726" />
+  
+  <!-- Book Title -->
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">Entrepreneurship</text>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">Guide</text>
+  
+  <!-- Decorative Elements - Business Icons -->
+  <circle cx="320" y="360" r="30" fill="#ffffff" opacity="0.8" />
+  <rect x="380" y="340" width="40" height="40" fill="#ffffff" opacity="0.8" />
+  <polygon points="450,330 480,370 420,370" fill="#ffffff" opacity="0.8" />
+  
+  <!-- Graph Icon -->
+  <polyline points="300,420 350,380 400,400 450,360 500,390" stroke="#ffffff" stroke-width="5" fill="none" />
+  
+  <!-- Subtitle -->
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#ffffff">A Practical Guide to</text>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#ffffff">Starting & Growing Small Businesses</text>
+</svg>

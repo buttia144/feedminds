@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary Colors */
+  --color-primary: #2563EB; /* blue-600 - Trust foundation */
+  --color-primary-50: #EFF6FF; /* blue-50 */
+  --color-primary-100: #DBEAFE; /* blue-100 */
+  --color-primary-200: #BFDBFE; /* blue-200 */
+  --color-primary-300: #93C5FD; /* blue-300 */
+  --color-primary-400: #60A5FA; /* blue-400 */
+  --color-primary-500: #3B82F6; /* blue-500 */
+  --color-primary-600: #2563EB; /* blue-600 */
+  --color-primary-700: #1D4ED8; /* blue-700 */
+  --color-primary-800: #1E40AF; /* blue-800 */
+  --color-primary-900: #1E3A8A; /* blue-900 */
+
+  /* Secondary Colors */
+  --color-secondary: #059669; /* emerald-600 - Growth and positive change */
+  --color-secondary-50: #ECFDF5; /* emerald-50 */
+  --color-secondary-100: #D1FAE5; /* emerald-100 */
+  --color-secondary-200: #A7F3D0; /* emerald-200 */
+  --color-secondary-300: #6EE7B7; /* emerald-300 */
+  --color-secondary-400: #34D399; /* emerald-400 */
+  --color-secondary-500: #10B981; /* emerald-500 */
+  --color-secondary-600: #059669; /* emerald-600 */
+  --color-secondary-700: #047857; /* emerald-700 */
+  --color-secondary-800: #065F46; /* emerald-800 */
+  --color-secondary-900: #064E3B; /* emerald-900 */
+
+  /* Accent Colors */
+  --color-accent: #F97316; /* orange-500 - Warm action invitation */
+  --color-accent-50: #FFF7ED; /* orange-50 */
+  --color-accent-100: #FFEDD5; /* orange-100 */
+  --color-accent-200: #FED7AA; /* orange-200 */
+  --color-accent-300: #FDBA74; /* orange-300 */
+  --color-accent-400: #FB923C; /* orange-400 */
+  --color-accent-500: #F97316; /* orange-500 */
+  --color-accent-600: #EA580C; /* orange-600 */
+  --color-accent-700: #C2410C; /* orange-700 */
+  --color-accent-800: #9A3412; /* orange-800 */
+  --color-accent-900: #7C2D12; /* orange-900 */
+
+  /* Background Colors */
+  --color-background: #FAFAFA; /* gray-50 - Clean content canvas */
+  --color-surface: #FFFFFF; /* white - Card elevation */
+
+  /* Text Colors */
+  --color-text-primary: #1F2937; /* gray-800 - Extended reading comfort */
+  --color-text-secondary: #6B7280; /* gray-500 - Information hierarchy */
+
+  /* Status Colors */
+  --color-success: #10B981; /* emerald-500 - Achievement celebration */
+  --color-warning: #F59E0B; /* amber-500 - Important information */
+  --color-error: #EF4444; /* red-500 - Form corrections */
+
+  /* Border Colors */
+  --color-border: #E5E7EB; /* gray-200 - Minimal borders */
+  --color-border-light: #F3F4F6; /* gray-100 */
+
+  /* Shadow Values */
+  --shadow-subtle: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Animation Durations */
+  --duration-fast: 300ms;
+  --duration-normal: 400ms;
+}
+
+@layer base {
+  body {
+    font-family: 'Source Serif 4', serif;
+    color: var(--color-text-primary);
+    background-color: var(--color-background);
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-lg font-inter font-semibold transition-all duration-300 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 focus:outline-none;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-white px-6 py-3 rounded-lg font-inter font-semibold transition-all duration-300 hover:bg-secondary-700 focus:ring-4 focus:ring-secondary-200 focus:outline-none;
+  }
+
+  .btn-accent {
+    @apply bg-accent text-white px-6 py-3 rounded-lg font-inter font-semibold transition-all duration-300 hover:bg-accent-600 focus:ring-4 focus:ring-accent-200 focus:outline-none;
+  }
+
+  .card {
+    @apply bg-surface rounded-xl p-6 shadow-subtle transition-all duration-300 hover:shadow-card;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-4 focus:ring-primary-200 focus:border-primary transition-all duration-300 outline-none;
+  }
+
+  .text-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .animation-fade-in {
+    animation: fadeIn var(--duration-normal) ease-out;
+  }
+
+  .animation-slide-up {
+    animation: slideUp var(--duration-normal) ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Book Cover -->
+  <rect x="200" y="100" width="400" height="500" rx="10" ry="10" fill="#e91e63" />
+  <rect x="210" y="110" width="380" height="480" rx="5" ry="5" fill="#ec407a" />
+  
+  <!-- Book Title -->
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">Creative Writing</text>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">Anthology</text>
+  
+  <!-- Decorative Elements - Pencil and Paper -->
+  <polygon points="300,350 320,330 500,450 480,470" fill="#ffffff" opacity="0.8" />
+  <polygon points="300,350 320,370 500,490 480,470" fill="#ffffff" opacity="0.6" />
+  <rect x="320" y="330" width="160" height="20" fill="#ffd54f" />
+  
+  <!-- Subtitle -->
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#ffffff">Poems, Stories & Essays</text>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#ffffff">by FeedingMinds Students</text>
+</svg>

@@ -1,0 +1,146 @@
+/* FeedingMinds Custom CSS - Animations and Transitions */
+
+/* Custom Button Styles */
+.btn-primary {
+    @apply bg-primary text-white font-medium rounded-lg shadow-md transition-all duration-300;
+}
+
+.btn-primary:hover {
+    @apply bg-primary-700 shadow-lg transform scale-105;
+}
+
+.btn-secondary {
+    @apply bg-secondary text-white font-medium rounded-lg shadow-md transition-all duration-300;
+}
+
+.btn-secondary:hover {
+    @apply bg-secondary-700 shadow-lg transform scale-105;
+}
+
+/* Smooth Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar Animation */
+.nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Card Hover Effects */
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Icon Animations */
+.skill-card .icon-container {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill-card:hover .icon-container {
+    transform: scale(1.1);
+}
+
+/* Volunteer Card Animations */
+.volunteer-carousel .bg-white {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.volunteer-carousel .bg-white:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Social Media Icon Animations */
+.social-icon {
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Section Transitions */
+section {
+    transition: background-color 0.5s ease;
+}
+
+/* Form Input Focus Effects */
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+    outline: none;
+}
+
+/* Custom Animations for AOS */
+[data-aos="custom-fade-up"] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition-property: opacity, transform;
+}
+
+[data-aos="custom-fade-up"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Gradient Text Effect */
+.gradient-text {
+    background: linear-gradient(90deg, var(--tw-gradient-stops));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    --tw-gradient-from: #3b82f6;
+    --tw-gradient-to: #10b981;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+/* Image Hover Effects */
+.hover-zoom {
+    overflow: hidden;
+}
+
+.hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+.hover-zoom:hover img {
+    transform: scale(1.05);
+}
+
+/* Mobile Menu Animation */
+#mobile-menu {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform-origin: top right;
+}
+
+#mobile-menu.hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+}
+
+#mobile-menu:not(.hidden) {
+    opacity: 1;
+    transform: scale(1);
+}

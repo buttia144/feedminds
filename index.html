@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FeedingMinds - Empowering Students Through Skills</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="bg-surface shadow-subtle sticky top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="assets/logo.jpeg" alt="FeedingMinds Logo" class="h-10 w-auto">
+                    <span class="ml-3 text-xl font-inter font-bold text-primary">FeedingMinds</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-primary font-semibold">Home</a>
+                    <a href="pages/vision.html" class="text-text-secondary hover:text-primary transition-colors">Vision</a>
+                    <a href="pages/mission.html" class="text-text-secondary hover:text-primary transition-colors">Mission</a>
+                    <a href="pages/skills.html" class="text-text-secondary hover:text-primary transition-colors">Skills</a>
+                    <a href="pages/volunteers.html" class="text-text-secondary hover:text-primary transition-colors">Volunteers</a>
+                    <a href="pages/projects.html" class="text-text-secondary hover:text-primary transition-colors">Projects</a>
+                    <a href="#contact" class="btn-primary">Get Involved</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-text-secondary hover:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-surface border-t border-border">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#" class="block px-3 py-2 text-primary font-semibold">Home</a>
+                <a href="pages/vision.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Vision</a>
+                <a href="pages/mission.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Mission</a>
+                <a href="pages/skills.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Skills</a>
+                <a href="pages/volunteers.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Volunteers</a>
+                <a href="pages/projects.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Projects</a>
+                <a href="#contact" class="block mx-3 my-2 btn-primary text-center">Get Involved</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-secondary-50 overflow-hidden py-16 md:py-24">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="text-center lg:text-left" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="text-4xl md:text-6xl font-inter font-bold text-text-primary mb-6 leading-tight">
+                        Empowering Students Through 
+                        <span class="text-gradient-primary">Skills & Knowledge</span>
+                    </h1>
+                    <p class="text-xl text-text-secondary mb-8 max-w-2xl">
+                        Equipping the next generation with vocational, digital, and life skills alongside their academics for a brighter future.
+                    </p>
+                    
+                    <!-- CTA Button -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact" class="btn-primary text-lg px-8 py-4 inline-flex items-center transform transition hover:scale-105">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                            Join Our Mission
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Video Section -->
+                <div class="relative" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="bg-surface rounded-2xl shadow-lg overflow-hidden">
+                        <div class="aspect-w-16 aspect-h-9">
+                            <video class="w-full h-full" controls>
+                                <source src="assets/WhatsApp Video 2025-09-12 at 1.35.45 PM.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Placeholder for where Volunteers section used to be -->
+    <!-- The Volunteers section has been moved to its own page at pages/volunteers.html -->
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-gradient-to-r from-primary/5 to-secondary/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
+                <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-4">Success Stories</h2>
+                <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    Hear from students whose lives have been transformed through our skills acquisition programs.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 relative" data-aos="fade-up" data-aos-duration="800">
+                    <div class="text-primary text-5xl absolute -top-4 -left-2 opacity-20">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text-text-secondary mb-6 relative z-10">
+                        "The leather crafting skills I learned at FeedingMinds helped me start my own small business. Now I can support my education while developing my entrepreneurial skills."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-primary"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-text-primary">Sarah Johnson</h4>
+                            <p class="text-sm text-text-secondary">Leather Crafting Student</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 relative" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="text-secondary text-5xl absolute -top-4 -left-2 opacity-20">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text-text-secondary mb-6 relative z-10">
+                        "Learning graphic design opened up a world of opportunities for me. I now work part-time as a designer while completing my studies, thanks to FeedingMinds."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-secondary"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-text-primary">Michael Okafor</h4>
+                            <p class="text-sm text-text-secondary">Graphic Design Student</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 relative" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="text-primary text-5xl absolute -top-4 -left-2 opacity-20">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text-text-secondary mb-6 relative z-10">
+                        "The tie and dye workshop changed my life. I've started a small fashion line that's gaining popularity in my community, and I'm teaching others these skills too."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-primary"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-text-primary">Amina Bello</h4>
+                            <p class="text-sm text-text-secondary">Tie & Dye Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#contact" class="btn-primary inline-flex items-center">
+                    <span>Share Your Story</span>
+                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Impact Statistics Section -->
+    <section id="impact" class="py-16 bg-text-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Impact</h2>
+                <div class="w-24 h-1 bg-white mx-auto mb-6"></div>
+                <p class="text-lg text-white/80 max-w-3xl mx-auto">
+                    See how our programs are making a difference in the lives of students and communities.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <!-- Stat 1 -->
+                <div data-aos="fade-up" data-aos-duration="800">
+                    <div class="text-5xl font-bold text-white mb-2">500+</div>
+                    <div class="text-xl text-white/80">Students Trained</div>
+                </div>
+                
+                <!-- Stat 2 -->
+                <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="text-5xl font-bold text-white mb-2">11</div>
+                    <div class="text-xl text-white/80">Skills Offered</div>
+                </div>
+                
+                <!-- Stat 3 -->
+                <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="text-5xl font-bold text-white mb-2">25+</div>
+                    <div class="text-xl text-white/80">Community Partners</div>
+                </div>
+                
+                <!-- Stat 4 -->
+                <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                    <div class="text-5xl font-bold text-white mb-2">85%</div>
+                    <div class="text-xl text-white/80">Employment Rate</div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="pages/impact_stories_multimedia_success_showcase.html" class="inline-block bg-white text-primary font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105" data-aos="fade-up" data-aos-delay="400">
+                    Read Impact Stories
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
+                <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-4">Get Involved</h2>
+                <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    Join our mission to empower students with skills for a brighter future. Reach out to learn more about our programs or how you can contribute.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Contact Form -->
+                <div class="bg-surface rounded-2xl shadow-lg p-8" data-aos="fade-right" data-aos-duration="1000">
+                    <form>
+                        <div class="mb-6">
+                            <label for="name" class="block text-text-primary font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="John Doe" />
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="email" class="block text-text-primary font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="john@example.com" />
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="subject" class="block text-text-primary font-medium mb-2">Subject</label>
+                            <select id="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                                <option value="">Select an option</option>
+                                <option value="volunteer">Volunteer Inquiry</option>
+                                <option value="donation">Donation Information</option>
+                                <option value="program">Program Information</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-text-primary font-medium mb-2">Your Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="How would you like to get involved?"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full btn-primary py-3 px-6 text-center">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div data-aos="fade-left" data-aos-duration="1000">
+                    <div class="space-y-8">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-primary-50 p-4 rounded-full">
+                                <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold text-text-primary">Our Location</h3>
+                                <p class="text-text-secondary mt-1">Benin city</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-primary-50 p-4 rounded-full">
+                                <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold text-text-primary">Email Us</h3>
+                                <p class="text-text-secondary mt-1">feedingmindsinitiative@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-primary-50 p-4 rounded-full">
+                                <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold text-text-primary">Call Us</h3>
+                                <p class="text-text-secondary mt-1">08073810811, 070 3825 8161</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-primary-50 p-4 rounded-full">
+                                <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold text-text-primary">Office Hours</h3>
+                                <p class="text-text-secondary mt-1">Monday to Friday 9 to 4pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media Links -->
+                    <div class="mt-8">
+                        <h3 class="text-lg font-semibold text-text-primary mb-4">Connect With Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://www.facebook.com/profile.php?id=100064054631637" class="bg-primary-50 p-3 rounded-full text-primary hover:bg-primary hover:text-white transition-colors">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://youtube.com/@gideongodspower-gz8hd?" class="bg-primary-50 p-3 rounded-full text-primary hover:bg-primary hover:text-white transition-colors">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Logo and Description -->
+                <div class="md:col-span-1">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/logo.jpeg" alt="FeedingMinds Logo" class="h-8 w-auto bg-white rounded">
+                        <span class="ml-2 text-xl font-bold">FeedingMinds</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Empowering students with skills for a brighter future and stronger communities.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/profile.php?id=100064054631637" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://youtube.com/@gideongodspower-gz8hd?" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="pages/vision.html" class="text-gray-300 hover:text-white transition-colors">Vision</a></li>
+                        <li><a href="pages/mission.html" class="text-gray-300 hover:text-white transition-colors">Mission</a></li>
+                        <li><a href="pages/skills.html" class="text-gray-300 hover:text-white transition-colors">Skills</a></li>
+                        <li><a href="pages/volunteers.html" class="text-gray-300 hover:text-white transition-colors">Volunteers</a></li>
+                        <li><a href="pages/projects.html" class="text-gray-300 hover:text-white transition-colors">Projects</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Programs -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Our Programs</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Skills Training</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Empowerment Conferences</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Mentorship</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Certification</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Community Outreach</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="md:col-span-1">
+                    <h3 class="text-lg font-semibold mb-4">Stay Updated</h3>
+                    <p class="text-gray-300 mb-4">
+                        Subscribe to our newsletter for the latest updates on programs and events.
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 w-full rounded-l-lg focus:outline-none text-text-primary" />
+                        <button type="submit" class="bg-primary hover:bg-primary-700 px-4 py-2 rounded-r-lg transition-colors">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2023 FeedingMinds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- AOS Animation Library Initialization -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init();
+        
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80, // Adjust for header height
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- Programs Overview Section -->
+    <section id="programs" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
+                <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-4">Explore Our Programs</h2>
+                <div class="w-24 h-1 bg-accent mx-auto mb-6"></div>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    Learn more about our vision, mission, and the skills we offer to empower students.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <!-- Vision Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-2" data-aos="fade-up" data-aos-duration="800">
+                    <div class="h-48 bg-primary-100 flex items-center justify-center">
+                        <i class="fas fa-eye text-6xl text-primary"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-text-primary">Our Vision</h3>
+                        <p class="text-text-secondary mb-4">
+                            Discover our vision for empowering students with skills, creativity, and character for a brighter future.
+                        </p>
+                        <a href="pages/vision.html" class="btn-primary inline-block">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Mission Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="h-48 bg-secondary-100 flex items-center justify-center">
+                        <i class="fas fa-bullseye text-6xl text-secondary"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-text-primary">Our Mission</h3>
+                        <p class="text-text-secondary mb-4">
+                            Explore our mission to equip students with vocational, digital, and life skills alongside their academics.
+                        </p>
+                        <a href="pages/mission.html" class="btn-primary inline-block">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Skills Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="h-48 bg-accent-100 flex items-center justify-center">
+                        <i class="fas fa-tools text-6xl text-accent"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-text-primary">Skills Acquisition</h3>
+                        <p class="text-text-secondary mb-4">
+                            Discover the wide range of practical and digital skills we offer to empower students for future success.
+                        </p>
+                        <a href="pages/skills.html" class="btn-primary inline-block">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Volunteers Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                    <div class="h-48 bg-primary-100 flex items-center justify-center">
+                        <i class="fas fa-users text-6xl text-primary"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-text-primary">Our Volunteers</h3>
+                        <p class="text-text-secondary mb-4">
+                            Meet the dedicated volunteers who make our mission possible through their expertise and passion.
+                        </p>
+                        <a href="pages/volunteers.html" class="btn-primary inline-block">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Projects Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <div class="h-48 bg-secondary-100 flex items-center justify-center">
+                        <i class="fas fa-project-diagram text-6xl text-secondary"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-text-primary">Our Projects</h3>
+                        <p class="text-text-secondary mb-4">
+                            Explore the impactful projects we're working on to transform education and empower communities.
+                        </p>
+                        <a href="pages/projects.html" class="btn-primary inline-block">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script id="dhws-dataInjector" src="/public/dhws-data-injector.js"></script>
+</body>
+</html>
